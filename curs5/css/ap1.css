@@ -1,0 +1,15 @@
+p{
+    border: 10px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 15px;
+    padding: 20px;
+}
+p.p123{
+
+   border: 15px solid red;
+   outline-style: solid;
+   outline-color: aquamarine; 
+   outline-width: 20px;
+   padding: 30px;
+}

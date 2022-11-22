@@ -1,0 +1,22 @@
+div img{
+    width: 100%;
+    max-width: 400px;
+}
+@media (max-width:576px) {
+    /*mobil*/
+    .laptop, .desktop{
+        display: none;
+    }
+}
+@media (min-width:578px) and (max-width:768px) {
+    /*laptop*/
+    .mobil, .desktop{
+        display: none;
+    }
+}
+@media (min-width:769px){
+    /*desktop*/
+    .laptop, .mobil{
+        display: none;
+    }
+}
